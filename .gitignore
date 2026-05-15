@@ -1,0 +1,55 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+build/
+dist/
+
+# Node/Frontend
+node_modules/
+.next/
+out/
+.npm
+npm-debug.log*
+
+# ESP32 / Arduino / PlatformIO
+.pio/
+.vscode/
+*.o
+*.a
+*.so
+*.obj
+*.elf
+*.bin
+*.hex
+
+# Local data
+data/
+*.db
+*.sqlite
+*.sqlite3
+log/
+*.log
+
+# Firmware Folders
+firmware/*/
+
+# Backend Folder
+backend/MQTT_Sub_Testing.py
+
+# Docs Folder
+docs/parameter_mapping.md
+docs/project_plan.md
+
+#Files
+Project Plan.md
+Solar_Monitoring_BOM.md
